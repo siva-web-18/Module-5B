@@ -17,7 +17,7 @@ To write a Python program using Pandas to **join two DataFrames along rows** (ro
 ---
 
 ## 💻 Program
-
+````
 import pandas as pd
 a=eval(input())
 b=eval(input())
@@ -31,7 +31,7 @@ print()
 mer=pd.concat([df1,df2])
 print("Join the said two dataframes along rows:")
 print(mer)
-
+````
 ## Output
 
 <img width="1144" height="748" alt="image" src="https://github.com/user-attachments/assets/0caeedb9-fe09-4cda-bcdf-5a49b13c1cb6" />
